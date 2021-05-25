@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Modelado Login en Web",
+    "owner": "Antonio Sorell",
+    "description": "Modelado de amenazas sencillo sobre realizar login en una web"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Diagrama del modelado",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
