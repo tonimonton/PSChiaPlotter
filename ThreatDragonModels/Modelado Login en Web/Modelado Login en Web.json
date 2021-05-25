@@ -10,7 +10,217 @@
       {
         "title": "Diagrama del modelado",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "7a822ccf-d83d-475a-a319-ad3e2168e08a",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Usuario"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "7a822ccf-d83d-475a-a319-ad3e2168e08a"
+              },
+              "target": {
+                "x": 400,
+                "y": 90
+              },
+              "vertices": [
+                {
+                  "x": 309,
+                  "y": 103
+                },
+                {
+                  "x": 345,
+                  "y": 103
+                }
+              ],
+              "id": "8b35e67b-7853-4e81-9b70-d78bea78ef2d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "datos login",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 407,
+                "y": 48
+              },
+              "angle": 0,
+              "id": "dedca5f8-4b10-46fd-8cff-b29446654005",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Acceso Web"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 340,
+                "y": 6
+              },
+              "target": {
+                "x": 334,
+                "y": 188
+              },
+              "vertices": [
+                {
+                  "x": 364,
+                  "y": 75
+                }
+              ],
+              "id": "1d25632e-f711-4ba7-8bad-0bdcbff85b1a",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 54,
+                "y": 203
+              },
+              "angle": 0,
+              "id": "6f9ecbc3-bc26-4650-a138-a904d4ee6ac1",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "phishing"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "6f9ecbc3-bc26-4650-a138-a904d4ee6ac1"
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [],
+              "id": "721968e9-962a-4ebe-9124-3274c5d68952",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.37693143768988496,
+                    "offset": -4.797960174900721
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "link malicioso",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 28,
+                "y": 146
+              },
+              "target": {
+                "x": 206,
+                "y": 159
+              },
+              "vertices": [
+                {
+                  "x": 113,
+                  "y": 140
+                }
+              ],
+              "id": "4f2d133f-e54c-4f8d-890b-1d565c28de16",
+              "z": 7,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
